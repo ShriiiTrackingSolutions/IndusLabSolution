@@ -1,0 +1,175 @@
+@media only screen and (min-width: 1920px) {
+
+
+}
+
+@media (max-width: 1399.98px) {
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+}
+
+@media (max-width: 1199.98px) {
+  .display-3 {
+    font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 60px;
+  }
+  
+  .secH {
+     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 40px;
+  }
+  
+  .therdH {
+     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 0 20px;
+  }
+  
+}
+
+@media (max-width: 991.98px) {
+  .display-3 {
+    font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 60px;
+  }
+  
+  .secH {
+     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 40px;
+  }
+  
+  .therdH {
+     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 0 20px;
+  }
+  
+  .fourthH {
+     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 30px;
+  }
+
+.navbar-nav {
+  gap: 4px;
+}
+}
+
+
+
+@media (max-width: 767.98px) {
+  .display-3 {
+    font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 60px;
+  }
+  
+  .secH {
+     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 40px;
+  }
+  
+  .therdH {
+     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 0 20px;
+  }
+  
+  .fourthH {
+     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 30px;
+  }
+
+
+  .footer.defaultPadding{
+    padding: 34px 0;
+  }
+  .footer .secH{
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .footer .container>.row{
+    justify-content: center;
+    row-gap: 40px;
+  }
+  
+  .footer .social-icons{
+  justify-content: center;
+  }
+  .footer .exploreLinks ul li{
+  text-align: left;
+  }
+
+  .footer-brand{
+    display: table !important;
+    margin: auto;
+  }
+  .footer {
+    text-align:center;
+  }
+  .footer .locationLink{
+    max-width: 200px;
+  }
+  .footer ul:not(.footer .exploreLinks1 ul) {
+    max-width: 257px;
+    margin: auto;
+  }
+  .footer .exploreLinks1 ul{
+    max-width: 352px; 
+  }
+  .footer .exploreLinks1 ul li{
+    text-align: left;
+    }
+  .footer .exploreLinks1 ul {
+    margin: auto;
+  }
+  .footer .exploreLinks ul {
+    width: 143px ;
+    max-width: 143px !important;
+    margin: auto;
+  }
+
+}
+
+
+
+@media (max-width: 575.98px) {
+
+}
+
