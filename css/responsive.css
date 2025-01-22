@@ -38,6 +38,11 @@
     line-height: 40px;
     margin: 0 0 20px;
   }
+
+  
+.maps iframe {
+  aspect-ratio: 3/4;
+}
   
 }
 
@@ -87,6 +92,7 @@ row-gap: 30px;
   width: 26%;
   max-width: 120px;
 }
+
 }
 
 
@@ -186,6 +192,10 @@ row-gap: 30px;
     row-gap: 24px;
   }
 
+  .maps iframe{
+    margin-top: 30px;
+     }
+
 }
 
 
@@ -208,6 +218,12 @@ row-gap: 30px;
   .authorWraper .fa-quote-right{
     font-size: 40px;
   }
+
+  .maps iframe{
+    aspect-ratio: unset;
+    min-height: 500px;
+    }
+    
 
 }
 
