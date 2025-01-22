@@ -79,8 +79,13 @@
   gap: 4px;
 }
 
-.IndustryLeadingDivisions .container>.row{
+.IndustryLeadingDivisions .container>.row,.ourValues .container>.row{
 row-gap: 30px;
+}
+
+.IcoImg {
+  width: 26%;
+  max-width: 120px;
 }
 }
 
@@ -171,6 +176,14 @@ row-gap: 30px;
     width: 143px ;
     max-width: 143px !important;
     margin: auto;
+  }
+
+  .commonAccordion .accordion-button{
+    font-size: 16px;
+  }
+
+  .legacySection .container>.row{
+    row-gap: 24px;
   }
 
 }

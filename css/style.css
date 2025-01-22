@@ -76,6 +76,10 @@ img {
   background-color: #ffb617;
 }
 
+.secH.sideStyle{
+  font-weight: 400 ;
+}
+
 .secH.sideStyle::after{
   content: "";
   display: block;
@@ -798,3 +802,111 @@ opacity: 1;
 
 
 /* What Our Client Say section end */
+
+
+/*---------------
+   About Page
+----------------*/
+
+.NewBanner{
+  background: linear-gradient(to bottom, #024f83e7, #1485cbe3) no-repeat center, url('../image/NewBanner.png') no-repeat center;
+  background-size: cover, cover;
+}
+
+.NewBanner .secH{
+  margin-bottom: 16px;
+}
+
+/* legacy section  start */
+.visionPerposeCard{
+  text-align: center;
+}
+
+.imgBox{
+  aspect-ratio: 4/3;
+}
+
+.imgBox{
+  background: linear-gradient(to bottom, #000000c2,#000000c2) no-repeat center, url('../image/VisionPic1.png') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  gap: 20px 20px;
+  margin-bottom: 24px;
+}
+
+.MissionBox{
+  background: linear-gradient(to bottom, #000000c2,#000000c2) no-repeat center, url('../image/VisionPic2.png') no-repeat center;
+  background-size: cover;
+}
+
+.PorposeBox{
+  background: linear-gradient(to bottom, #000000c2,#000000c2) no-repeat center, url('../image/VisionPic3.png') no-repeat center;
+  background-size: cover;
+}
+
+.IcoImg{
+  width: 40%;
+  max-width: 120px;
+}
+/* legacy section end */
+
+
+/* Our Values section start */
+.ourValues{
+  background: linear-gradient(to bottom, #1485cbe3, #1485cbe3) no-repeat center, url('../image/blue-wavy-background.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+
+.commonAccordion .accordion-button{
+  background-color: #075081;
+  color: #ffffff;
+  border-radius: 100px !important;
+  padding: 17px 20px !important;
+}
+
+
+
+.commonAccordion .fourthH {
+  font-weight: 600;
+}
+.commonAccordion p {
+  color: #ffffff;
+  background-color: transparent;
+}
+.commonAccordion .accordion-button:not(.collapsed){
+  box-shadow: none;
+  background-color: #ffffff;
+  color: var(--background-color);
+}
+
+.commonAccordion .accordion-item {
+  border: none;
+  margin-bottom: 10px;
+  background-color: transparent !important;
+}
+
+.commonAccordion .accordion-button::after {
+  content: "\f055";
+  width: unset;
+  height: unset;
+  margin-left: auto;
+  background-image: none;
+  transition: var(--bs-accordion-btn-icon-transition);
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+}
+
+.commonAccordion .accordion-button:not(.collapsed)::after {
+  content: "\f056";
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+
+/* Our Values section end */
