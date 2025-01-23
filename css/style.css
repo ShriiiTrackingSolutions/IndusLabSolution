@@ -1,14 +1,5 @@
 
 
-@font-face {
-  font-family: 'Sui Generis Rg';
-  src: url('../fonts/SuiGenerisRg-Regular.woff2') format('woff2'),
-      url('../fonts/SuiGenerisRg-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 
 *:root{
   --primary-color: #025e9b;
@@ -44,7 +35,7 @@ img {
 
 
 .display-3 {
-  font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--primary-color);
   font-size: 56px;
   font-weight: 600;
@@ -53,7 +44,7 @@ img {
 }
 
 .secH {
-   font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+   font-family:  Arial, Helvetica, sans-serif;
   font-size: 48px;
   position: relative;
   font-weight: 700;
@@ -94,7 +85,7 @@ img {
 
 
 .therdH {
-   font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -102,7 +93,7 @@ img {
 }
 
 .fourthH {
-   font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
   text-transform: capitalize;
@@ -135,7 +126,7 @@ img {
 }
 
 .fifthH {
-   font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 600;
   text-transform: capitalize;

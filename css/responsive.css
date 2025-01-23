@@ -15,7 +15,6 @@
 
 @media (max-width: 1199.98px) {
   .display-3 {
-    font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     color: var(--primary-color);
     font-size: 48px;
     font-weight: 600;
@@ -24,7 +23,6 @@
   }
   
   .secH {
-     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     font-size: 38px;
     font-weight: 700;
     line-height: 52px;
@@ -32,7 +30,6 @@
   }
   
   .therdH {
-     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     font-size: 34px;
     font-weight: 700;
     line-height: 40px;
@@ -48,7 +45,6 @@
 
 @media (max-width: 991.98px) {
   .display-3 {
-    font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     color: var(--primary-color);
     font-size: 44px;
     font-weight: 600;
@@ -57,7 +53,6 @@
   }
   
   .secH {
-     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -65,7 +60,6 @@
   }
   
   .therdH {
-     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
@@ -73,7 +67,6 @@
   }
   
   .fourthH {
-     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-weight: bold;
     text-transform: capitalize;
@@ -97,13 +90,17 @@ row-gap: 30px;
   display: none;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
 }
 
 
 
 @media (max-width: 767.98px) {
   .display-3 {
-    font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     color: var(--primary-color);
     font-size: 38px;
     font-weight: 600;
@@ -112,7 +109,6 @@ row-gap: 30px;
   }
   
   .secH {
-     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     font-size: 34px;
     font-weight: 700;
     line-height: 52px;
@@ -120,7 +116,6 @@ row-gap: 30px;
   }
   
   .therdH {
-     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 40px;
@@ -128,7 +123,6 @@ row-gap: 30px;
   }
   
   .fourthH {
-     font-family: 'Sui Generis Rg', Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-transform: capitalize;
