@@ -93,6 +93,10 @@ row-gap: 30px;
   max-width: 120px;
 }
 
+.navbar-nav .nav-link.active:before{
+  display: none;
+}
+
 }
 
 
