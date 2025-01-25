@@ -1030,6 +1030,7 @@ opacity: 1;
 .FormSection .modal-header {
   justify-content: center;
   position: relative;
+  color: var(--background-color);
 }
 .FormSection .modal-header .btn-close {
  margin: 0 !important;
