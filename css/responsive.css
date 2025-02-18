@@ -94,7 +94,12 @@ row-gap: 30px;
   padding-top: 8px !important;
     padding-bottom: 8px !important;
 }
-
+.dropdown-menu[data-bs-popper] {
+  width: auto;
+}
+.dropdown-menu {
+  border: none;
+}
 }
 
 
