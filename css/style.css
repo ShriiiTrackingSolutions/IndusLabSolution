@@ -427,7 +427,6 @@ position: relative;
 .footer {
   background-color: var(--background-color);
   color: #ffffff;
-  box-shadow: 0 0 15px #000;
 }
 .footer.defaultPadding {
   padding: 80px 0;
@@ -1078,7 +1077,9 @@ opacity: 1;
 }
 
 /* form section end */
-
+.partnerLaboratory .container>.row{
+  row-gap: 24px;
+}
 .laboratoryCard{
   cursor: pointer;
   border: 1px solid var(--grey);
