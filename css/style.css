@@ -470,6 +470,7 @@ position: relative;
 }
 .footer .exploreLinks1 ul{
   max-width: 352px; 
+  padding-left: 0px;
 }
 .footer .exploreLinks1 ul li{
   text-align: left;
@@ -872,6 +873,7 @@ opacity: 1;
 
 .commonAccordion .accordion-button{
   background-color: #075081;
+  line-height: 28px;
   color: #ffffff;
   border-radius: 100px !important;
   padding: 17px 20px !important;
