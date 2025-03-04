@@ -645,8 +645,12 @@ opacity: 1;
   padding: 0;
   border-radius: 0;
   background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
   font-weight: 600;
   color: var(--background-color);
+  min-width: 102.22px;
 }
 
 .nav-pills .nav-link:hover{
@@ -657,6 +661,8 @@ opacity: 1;
   padding: 10px;
   width: 80px;
   aspect-ratio: 1/1;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
   background: linear-gradient(to bottom, #024f83,rgb(12, 182, 239)) no-repeat center;
 }
@@ -673,6 +679,7 @@ opacity: 1;
 .nav-pills{
   gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hoverZoom{
