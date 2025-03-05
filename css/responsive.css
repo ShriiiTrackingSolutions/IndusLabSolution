@@ -77,6 +77,14 @@
   gap: 4px;
 }
 
+.tagLineIndus{
+  flex-grow: 1;
+  text-align: center;
+}
+.miniHeader .container>.row{
+  justify-content: center;
+}
+
 .IndustryLeadingDivisions .container>.row,.ourValues .container>.row{
 row-gap: 30px;
 }
