@@ -236,6 +236,9 @@ row-gap: 30px;
     min-height: 500px;
     }
     
+    .navbar-brand{
+      margin-left: 40px;
+    }
 
 }
 
