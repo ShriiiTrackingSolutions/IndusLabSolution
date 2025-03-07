@@ -574,22 +574,10 @@ position: relative;
   position: relative;
 }
 
-.imgHover::after{
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 1;
-  background-color: #00000063;
-  transition: all 0.5s ease-in-out;
-}
 
 .imgHover img{
   aspect-ratio: 1;
   object-fit: cover;
-  filter: grayscale(100);
   transition:  scale 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
 
@@ -615,12 +603,8 @@ position: relative;
 }
 
 
-.divisionCard:hover .imgHover::after{
-  opacity: 0;
-}
 .divisionCard:hover .imgHover img{
  scale: 1.1;
- filter: grayscale(0);
 }
 .divisionCard:hover .fourthH{
 opacity: 1;
