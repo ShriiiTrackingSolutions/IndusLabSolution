@@ -147,6 +147,7 @@ img {
 .miniHeader{
   background-color: var(--primary-color);
   padding: 8px 0;
+  display: none;
 }
 .miniHeader .container>.row{
   justify-content: space-between;
