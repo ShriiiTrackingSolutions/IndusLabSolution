@@ -1067,6 +1067,7 @@ opacity: 1;
 /* form section end */
 .partnerLaboratory .container>.row{
   row-gap: 24px;
+  justify-content: center;
 }
 .laboratoryCard{
   cursor: pointer;
