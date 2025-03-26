@@ -9,25 +9,50 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+        url('../fonts/Oswald-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('../fonts/Inter18pt-Regular.woff2') format('woff2'),
+        url('../fonts/Inter18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
-/* .oswald-<uniquifier> {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
+        url('../fonts/Oswald-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
-/* 
-.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('../fonts/Inter28pt-Regular.woff2') format('woff2'),
+        url('../fonts/Inter28pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
-
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
+        url('../fonts/Oswald-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 * {
@@ -38,7 +63,7 @@ body {
   margin: 0;
    font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+   font-weight: normal;
   font-style: normal;
   text-transform: capitalize !important;
   line-height: 29.6px;
@@ -67,7 +92,7 @@ img {
 
 .secH {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: bold;
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -113,14 +138,14 @@ img {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 40px;
   margin: 0 0 20px;
 }
 
 .fourthH {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: bold;
    font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
