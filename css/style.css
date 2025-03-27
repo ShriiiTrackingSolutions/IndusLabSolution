@@ -600,9 +600,10 @@ position: relative;
 .footer .social-icons .facebook {
   background-color: #0c71c3;
 }
-.footer .social-icons .instagram {
-  background-color: #ea2c59;
+.footer .social-icons .fa-linkedin-in {
+  background-color: #0a66c2;
 }
+
 .footer .social-icons .whatsapp {
   background-color: #25d366;
 }
